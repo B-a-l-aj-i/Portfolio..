@@ -9,7 +9,6 @@ body{
     font-size: 2.3rem;
     display: none;
     padding-right: 2%;
-    display: none;
 }
 
 .bgg{
@@ -17,7 +16,7 @@ body{
     top: 66%;
     right: 0;
     width: 40%;
-    height: 50vh;
+    height: 300px;
     background-color:lightblue;
     display: none;
     transform: translateX(900px) translateY(-50px);
@@ -29,7 +28,7 @@ body{
     /* color: white; */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
  
 }
 .sq{
