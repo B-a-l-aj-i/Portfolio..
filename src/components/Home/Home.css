@@ -173,6 +173,9 @@ button:hover{
     .projectbtn{
         background-color: rgb(100, 100, 255);
     }
+    .footer{
+        padding-top: 4%;
+    }
     .desc{
 
         background-color: none;
