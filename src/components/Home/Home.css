@@ -147,7 +147,7 @@ button:hover{
 
 @media screen and (max-width:720px) {
     .card{
-        background-color:#f4ece6;
+        background-color:rgb(238, 211, 216);
         justify-content: center;
         flex-direction: column;
         left: 5%;
@@ -156,7 +156,8 @@ button:hover{
         
     }
     .bg{
-        background-color:#f4ece6;
+        background-color:rgb(238, 211, 216);
+    
 
         /* margin: 100% auto; */
         top: 60%;
@@ -164,15 +165,16 @@ button:hover{
         /* height: 800px; */
     }
     .pic{
-        background-color:#f4ece6;
-
-    box-shadow: 1px 8px 22px rgb(90, 90, 90);
+        background-color:rgb(238, 211, 216);
+         box-shadow: 1px 8px 22px rgb(90, 90, 90);
         border-radius: 10px;
         padding-bottom:7%;
         max-width: 100%;
     }
+    .projectbtn{
+        background-color: rgb(50, 50, 254);
+    }
     .desc{
-        background-color:#f4ece6;
 
         background-color: none;
         max-width: 100%;
