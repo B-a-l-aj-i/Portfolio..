@@ -65,6 +65,7 @@ body{
     width: 100%;
     background-color: white;
     position: fixed;
+    top: 0;
     z-index: 99;
     padding: 1%;
 }

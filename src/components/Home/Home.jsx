@@ -50,7 +50,6 @@ function Home(){
                 </div>
 
 
-
                 <footer className="footer">
                 <div>
                 <div className="info">
@@ -72,6 +71,7 @@ function Home(){
                     </div>
                </div>
                 </footer>
+               
         </main>
     )
 }

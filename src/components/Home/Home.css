@@ -1,8 +1,7 @@
 .bg{
-    margin:7% 0;
-    position: absolute;
+    position: relative;
     width: 40%;
-    height: 570px;
+    height: 90vh;
     background-color:#f4ece6;
 }
 .card{
@@ -125,10 +124,10 @@ button:hover{
 }
 .footer{
     position: absolute;
-    bottom: 0;
     background-color:white;
     height: 4rem;
     width: 100%; 
+    /* display: none; */
 }
 
 .footer p{
@@ -159,13 +158,10 @@ button:hover{
         
     }
     .bg{
+       margin-top:110% ;
         background-color:rgb(232, 228, 229);
-    
-
-        /* margin: 100% auto; */
-        top: 60%;
         width:100%;
-        /* height: 800px; */
+     
     }
     .pic{
         background-color:rgb(232, 228, 229);
@@ -192,9 +188,10 @@ button:hover{
         top: 100%;
     }
 
-    .footer{
-        bottom: -60%;
+    .footer p{
+        margin-right: auto;
     }
+
 
     .lin{
         margin-left:-80px;
