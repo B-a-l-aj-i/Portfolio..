@@ -67,7 +67,6 @@ button:hover{
     background-color:rgb(70, 70, 255);
     transition: 0.7s;
     color: white;
-    border: none;
 }
 .obj{
     line-height: 25px;
@@ -80,15 +79,49 @@ button:hover{
 .sidebar{
     position: absolute;
     background-color:rgb(164, 218, 237);
-    right: 0;
+    right: 0%;
     top: 40%;
-    height: 200px;
+    height: 150px;
     width: 40px;
 
+    
     display: flex;
     flex-direction: column;
     gap: 2px;
+    align-items: center;
     justify-content: space-evenly;
+    transform: translateX(100px);
+    transition: 1.1s;
+    animation:sider 1s 1s forwards;
+}
+
+
+@keyframes sider {
+    from{
+    opacity: 0;
+
+    }
+
+    to{
+        display: flex;
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+
+.projectbtn{
+    border: none;
+    color: white;
+    background-color: blue;
+}
+
+.projectbtn:hover{
+    transition: 0.7s;
+
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
 }
 .footer{
     position: absolute;
@@ -114,7 +147,7 @@ button:hover{
 
 @media screen and (max-width:720px) {
     .card{
-        
+        background-color:#f4ece6;
         justify-content: center;
         flex-direction: column;
         left: 5%;
@@ -123,18 +156,24 @@ button:hover{
         
     }
     .bg{
+        background-color:#f4ece6;
+
         /* margin: 100% auto; */
         top: 60%;
         width:100%;
         /* height: 800px; */
     }
     .pic{
+        background-color:#f4ece6;
+
     box-shadow: 1px 8px 22px rgb(90, 90, 90);
         border-radius: 10px;
         padding-bottom:7%;
         max-width: 100%;
     }
     .desc{
+        background-color:#f4ece6;
+
         background-color: none;
         max-width: 100%;
     }
