@@ -11,7 +11,9 @@
     display: flex;
     max-width: 800px;
     margin: 0 auto;
+
 }
+
 .pic{
     border-radius: 10px;
     transition: 2s;
@@ -23,12 +25,20 @@
     align-items: center;
     object-fit: contain;
     background-color:#f4ece6;
+    transform: translateX(-15%);
     animation:bs 2s 2s forwards;
+    
 }
-
-@keyframes bs {
+@keyframes bs2 {
 
     to{
+    }
+    
+}
+@keyframes bs {
+    
+    to{
+        transform: translateX(15px);
     box-shadow: 1px 8px 22px rgb(136, 136, 136);
 
     }
@@ -101,14 +111,13 @@ button:hover{
     justify-content: space-evenly;
     transition: 1.1s;
     opacity: 0;
-    animation:sider 2s 3s forwards;
+    animation:sider 2s 2s forwards;
 }
 
 
 @keyframes sider {
     from{
-        transform: translateX(-100px);
-
+        transform: translateX(-35px)
     }
 
     to{

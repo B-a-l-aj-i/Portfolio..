@@ -14,20 +14,20 @@ function Navbar(){
 
                 <div className="bgg">
                     <ul >
-                        <li>Home</li>
-                        <li>Techstack</li>
-                        <li>Project</li>
-                        <li>contact</li>
+                      <a href="/"><li>Home</li></a>
+                       <a href="/Tech"> <li>Techstack</li></a>
+                        <a href="/Project"><li>Project</li></a>
+                        <a href="/Contact"><li>contact</li></a>
                     </ul>
             </div>
                 </div>
 
                 <div className="lists">
                     <ul>
-                        <li>Home</li>
-                        <li>Techstack</li>
-                        <li>Project</li>
-                        <li>contact</li>
+                        <a href="/"><li>Home</li></a>
+                       <a href="/Tech"> <li>Techstack</li></a>
+                        <a href="/Project"><li>Project</li></a>
+                        <a href="/Contact"><li>contact</li></a>
                     </ul>
                 </div>
             </div>
