@@ -16,6 +16,7 @@ function App(){
             break;
 
         default:
+            component=<Home/>
               
     }
     console.log(component);
