@@ -38,9 +38,10 @@ body{
     display: inline-block;
     width: 15px;
     height: 15px;
+    margin-right: 10px;
     background-color: rgb(156, 212, 231);
     /* color:blue; */
-    animation: rotateSquare  9s infinite linear;
+    animation: rotateSquare  7s infinite linear;
 }
 
 
@@ -54,6 +55,8 @@ body{
 }
 
 .name{
+    /* display: flex; */
+    align-items: baseline;
     max-width: 900px;
     padding-left: 7%;
     font-weight: bold;

@@ -6,9 +6,11 @@ function Navbar(){
            
             <div className="container">
                 <div className="name">
-               
-                <p>  <div className="sq"> </div>  <a style={{textDecoration:"none",color:"black"}} href="https://balajimariappan.netlify.app/">BALAJI</a> <span style={{fontWeight:100,fontSize:"1.2rem",letterSpacing:"0.3rem",color:"black"}}> / Frontend Developer</span></p>
+                  <div className="sq"> </div> 
+                   <a style={{textDecoration:"none",color:"black"}} href="https://balajimariappan.netlify.app/">BALAJI</a> 
+                   <span style={{fontWeight:100,fontSize:"1.2rem",letterSpacing:"0.3rem",color:"black"}}> / Frontend Developer</span>
                 </div>
+               
 
                 <div className="mobileList" > ☰
 
