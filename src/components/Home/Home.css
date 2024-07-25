@@ -187,6 +187,8 @@ button:hover{
         border-radius: 10px;
         padding-bottom:7%;
         max-width: 100%;
+     transform: translatey(-15%);
+
         animation:bsm 2s 2s forwards;
 
     }
@@ -194,7 +196,7 @@ button:hover{
     @keyframes bsm {
     
         to{
-
+            transform: translatey(0);
         box-shadow: 1px 8px 22px rgb(136, 136, 136);
     
         }
