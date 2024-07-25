@@ -19,7 +19,7 @@ function Home(){
 
                 <div className="line"></div>
 
-                <span style={{fontWeight:100,fontSize:"1.2rem",letterSpacing:"0.3rem",marginTop:"20px"}}>FrontendDeveloper</span>
+                <span style={{fontWeight:100,fontSize:"1.2rem",letterSpacing:"0.3rem",marginTop:"20px",color:"black"}}>FrontendDeveloper</span>
                 
                 </div>
 
