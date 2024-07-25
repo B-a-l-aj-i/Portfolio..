@@ -7,11 +7,11 @@ function App(){
 
     let component;
 
-    switch(window.location.host){
-        case "":
+    switch(window.location.pathname){
+        case "/":
              component=<Home/>
              break;
-        case "#Contact":
+        case "/contact":
             component=<Contact/>
             break;
 

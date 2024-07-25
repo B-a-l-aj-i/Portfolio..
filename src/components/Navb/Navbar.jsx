@@ -27,7 +27,7 @@ function Navbar(){
                         <a href="/" target="blank"><li>Home</li></a>
                        <a href="#Tech" target="blank"> <li>Techstack</li></a>
                         <a href="#Project" target="blank"><li>Project</li></a>
-                        <a href="#Contact" target="blank"><li>contact</li></a>
+                        <a href="/contact" target="blank"><li>contact</li></a>
                     </ul>
                 </div>
             </div>
