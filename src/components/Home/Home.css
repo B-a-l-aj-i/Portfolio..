@@ -165,7 +165,19 @@ button:hover{
 
 @media screen and (max-width:720px) {
     .sidebar{
-        animation: none;
+        /* animation: none; */
+    }
+    @keyframes sider {
+        from{
+            transform: translatey(-35px)
+        }
+    
+        to{
+            right: 0;
+            display: flex;
+            opacity: 1;
+        }
+        
     }
     .card{
         background-color:rgb(232, 228, 229);
@@ -219,8 +231,9 @@ button:hover{
         height:120px;
     }
     .sidebar{
-        width: 45px;
-        top: 100%;
+        width: 39px;
+        top: 85%;
+        height: 110px;
     }
 
     .footer p{
