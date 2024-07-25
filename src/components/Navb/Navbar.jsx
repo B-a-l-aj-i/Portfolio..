@@ -25,8 +25,8 @@ function Navbar(){
                 <div className="lists">
                     <ul>
                         <a href="/" target="_blank"><li>Home</li></a>
-                       <a href="#Tech" target="_blank" style={{textDecoration:"line-through"}} target="blank"> <li>Techstack</li></a>
-                        <a href="#Project" target="_blank" style={{textDecoration:"line-through"}} target="blank"><li>Project</li></a>
+                       <a href="#Tech" target="_blank" style={{textDecoration:"line-through"}} > <li>Techstack</li></a>
+                        <a href="#Project" target="_blank" style={{textDecoration:"line-through"}} ><li>Project</li></a>
                         <a href="/contact" target="_blank"><li>contact</li></a>
                     </ul>
                 </div>
