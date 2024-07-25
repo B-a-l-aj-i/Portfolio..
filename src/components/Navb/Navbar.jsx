@@ -15,9 +15,9 @@ function Navbar(){
                 <div className="bgg">
                     <ul >
                     <a href="/" target="blank"><li>Home</li></a>
-                       <a href="/Tech" target="blank"> <li>Techstack</li></a>
-                        <a href="/Project" target="blank"><li>Project</li></a>
-                        <a href="/Contact" target="blank"><li>contact</li></a>
+                       <a href="#Tech" target="blank"> <li>Techstack</li></a>
+                        <a href="#Project" target="blank"><li>Project</li></a>
+                        <a href="#Contact" target="blank"><li>contact</li></a>
                     </ul>
             </div>
                 </div>
@@ -25,9 +25,9 @@ function Navbar(){
                 <div className="lists">
                     <ul>
                         <a href="/" target="blank"><li>Home</li></a>
-                       <a href="/Tech" target="blank"> <li>Techstack</li></a>
-                        <a href="/Project" target="blank"><li>Project</li></a>
-                        <a href="/Contact" target="blank"><li>contact</li></a>
+                       <a href="#Tech" target="blank"> <li>Techstack</li></a>
+                        <a href="#Project" target="blank"><li>Project</li></a>
+                        <a href="#Contact" target="blank"><li>contact</li></a>
                     </ul>
                 </div>
             </div>

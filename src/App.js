@@ -11,9 +11,11 @@ function App(){
         case '/':
              component=<Home/>
              break;
-        case "/Contact":
+        case "#Contact":
             component=<Contact/>
             break;
+
+        default:
               
     }
     console.log(component);
