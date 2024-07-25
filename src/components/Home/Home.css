@@ -169,6 +169,7 @@ button:hover{
     }
     @keyframes sider {
         from{
+            right: 0;
             transform: translatey(-35px)
         }
     

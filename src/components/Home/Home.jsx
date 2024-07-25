@@ -30,7 +30,8 @@ function Home(){
                         </div>
 
                         <div className="btns">
-                            <button>Resume</button>
+                        {/* <a href="resume.pdf" download="resume.pdf" > <button > Resume </button></a>  */}
+                            <button ><a style={{textDecoration:"none",color:"black"}} href="resume.pdf" download="resume.pdf" >Resume </a> </button>
                             <button className="projectbtn">Projects</button>
                         </div>
 
