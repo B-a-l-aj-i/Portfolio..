@@ -11,11 +11,12 @@ function App(){
         case '/':
              component=<Home/>
              break;
-        case '/Contact':
+        case "/Contact":
             component=<Contact/>
             break;
               
     }
+    console.log(component);
     return(
             <div>
             <Navbar/>
