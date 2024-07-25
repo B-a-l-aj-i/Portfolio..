@@ -30,6 +30,10 @@ body{
     justify-content: space-between;
  
 }
+.bgg a{
+    text-decoration: none;
+
+}
 .sq{
     display: inline-block;
     width: 15px;
