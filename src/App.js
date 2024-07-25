@@ -3,9 +3,7 @@ import Home from "./components/Home/Home";
 import Contact from "./components/contact/Contact";
 
 
-
 function App(){
-
 
     let component;
 
@@ -16,8 +14,7 @@ function App(){
         case '/Contact':
             component=<Contact/>
             break;
-         default:
-            break;        
+              
     }
     return(
             <div>
