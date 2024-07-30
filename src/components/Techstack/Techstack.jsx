@@ -3,15 +3,27 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './Techstack.css';
 
+import bootstrap from "./imgs/simple-icons--bootstrap.png"
+import css from "./imgs/simple-icons--css3.png"
+import html from "./imgs/uiw--html5.png"
+import java from "./imgs/devicon-plain--java.png"
+import sql from "./imgs/simple-icons--postgresql.png"
+import react from "./imgs/ri--reactjs-fill.png"
+import figma from "./imgs/logos--figma.png"
+import git from "./imgs/cib--git.png"
+import js from "./imgs/fa-brands--js.png"
+
 const techs = [
-  { name: 'HTML', logo: 'path/to/html-logo.png' },
-  { name: 'CSS', logo: 'path/to/css-logo.png' },
-  { name: 'JavaScript', logo: 'path/to/javascript-logo.png' },
-  { name: 'jQuery', logo: 'path/to/jquery-logo.png' },
-  { name: 'Java', logo: 'path/to/java-logo.png' },
-  { name: 'Bootstrap', logo: 'path/to/bootstrap-logo.png' },
-  { name: 'Git & GitHub', logo: 'path/to/git-logo.png' },
-  { name: 'PostgreSQL', logo: 'path/to/postgresql-logo.png' },
+  { name: 'REACT', logo: `${react}`},
+  { name: 'HTML', logo: `${html}`},
+  { name: 'CSS', logo: `${css}` },
+  { name: 'JavaScript', logo:`${js}` },
+  { name: 'jQuery', logo: `${java}` },
+  { name: 'Java', logo: `${java}` },
+  { name: 'Bootstrap', logo:`${bootstrap}` },
+  { name: 'Git & GitHub', logo:`${git}` },
+  { name: 'PostgreSQL', logo: `${sql}` },
+  { name: 'FIGMA', logo: `${figma}`}
 ];
 
 const TechStack = () => {
@@ -23,13 +35,13 @@ const TechStack = () => {
           <motion.div
             key={index}
             className="tech-item"
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale:1.1 }}
             whileTap={{ scale: 0.9 }}
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
-            <img src={tech.logo} alt={`${tech.name} logo`} className="tech-logo" />
+            <img src={tech.logo} alt={`${tech.name} logo`}  className="tech-logo" />
             <p>{tech.name}</p>
           </motion.div>
         ))}
