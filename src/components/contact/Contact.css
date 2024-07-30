@@ -20,7 +20,7 @@
     width: 100%;
     max-width: 600px;
     border: 2px solid #ccc;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 8px 11px rgb(0, 0, 0);
     background-color:rgb(218, 218, 218);
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
@@ -132,9 +132,12 @@
   @media (max-width: 768px) {
     #contact{
         margin-top:40%;
+
     }
     .contact {
       width: 90%;
+    background-color:rgb(218, 218, 218);
+
     }
   
     .contact-ips {
@@ -149,6 +152,10 @@
   @media (max-width: 480px) {
     #contact{
         margin-top:40%;
+    }
+    .contact{
+    background-color:rgb(218, 218, 218);
+
     }
     .contact p {
       font-size: 2rem;
