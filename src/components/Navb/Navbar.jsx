@@ -17,7 +17,7 @@ function Navbar(){
                 <div className="bgg">
                 <ul>
                         <a href="/" ><li>Home</li></a>
-                       <a href="#Tech"  style={{textDecoration:"line-through"}} > <li>Techstack</li></a>
+                       <a href="/Tech" > <li>Techstack</li></a>
                         <a href="#Project"  style={{textDecoration:"line-through"}}><li>Project</li></a>
                         <a href="/contact" ><li>contact</li></a>
                     </ul>
@@ -27,7 +27,7 @@ function Navbar(){
                 <div className="lists">
                     <ul>
                         <a href="/" ><li>Home</li></a>
-                       <a href="#Tech"  style={{textDecoration:"line-through"}} > <li>Techstack</li></a>
+                       <a href="/Tech" > <li>Techstack</li></a>
                         <a href="#Project"  style={{textDecoration:"line-through"}} ><li>Project</li></a>
                         <a href="/contact" ><li>contact</li></a>
                     </ul>
