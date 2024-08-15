@@ -43,6 +43,10 @@
     color: #555;
   }
   @media (max-width: 768px) {
+    .tech-stack-container{
+    background-color:#f3f0f5;
+
+    }
     .tech-stack-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;

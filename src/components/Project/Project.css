@@ -42,6 +42,8 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     /* height: 200px; */
+    box-shadow: 15px 15px 25px rgb(59, 59, 59);
+
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
@@ -92,6 +94,9 @@ body {
   
   /* Responsive Design */
   @media (max-width: 768px) {
+    .App{
+    background-color:#f3f0f5;
+    }
     .projects {
       grid-template-columns: 1fr;
     }
