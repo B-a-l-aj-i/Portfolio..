@@ -32,7 +32,7 @@ function Home(){
                         <div className="btns">
                         {/* <a href="resume.pdf" download="resume.pdf" > <button > Resume </button></a>  */}
                             <button ><a style={{textDecoration:"none",color:"black"}} href="resume.pdf" download="resume.pdf" >Resume </a> </button>
-                            <button className="projectbtn">Projects</button>
+                            <button  className="projectbtn"><a style={{textDecoration:"none",color:"black"}} href="/Project"> Projects </a> </button>
                         </div>
 
                         <div className="obj">
