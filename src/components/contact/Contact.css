@@ -129,7 +129,7 @@
   @media (max-width: 768px) {
     #contact{
     margin-top:40%;
-    background-color:#f7f1ed
+    background-color:#f4ece6;
     }
     .contact {
       width: 90%;
@@ -147,6 +147,8 @@
   @media (max-width: 480px) {
     #contact{
         margin-top:40%;
+    background-color:#f4ece6;
+
     }
     
     .contact p {
