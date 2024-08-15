@@ -3,14 +3,14 @@
     text-align: center;
     padding: 2rem;
     margin-top: 10%;
-    background-color: #f9f9f9;
+    background-color:#f7f1ed;
     color: #333;
   }
 
   h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #007acc;
+    /* color: #007acc; */
   }
   
   .tech-stack-grid {

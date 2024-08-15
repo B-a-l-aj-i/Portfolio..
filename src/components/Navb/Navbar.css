@@ -107,10 +107,16 @@ li:hover{
     }
 
     .mobileList:hover .bgg{
+       
         transform:translateX(0px) translateY(-50px);
      }
+   
      .bgg{
+         color: black;
         display: block;
+     }
+     .bgg a{
+        text-decoration: none;
      }
     .mobileList{
         display: block;

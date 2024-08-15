@@ -1,6 +1,7 @@
 import Navbar from "./components/Navb/Navbar";
 import Home from "./components/Home/Home";
 import Contact from "./components/contact/Contact";
+import Project from "./components/Project/Project";
 import TechStack from "./components/Techstack/Techstack";
 
 function App(){
@@ -17,6 +18,9 @@ function App(){
         case "/Tech":
             component=<TechStack/>
             break;
+        case "/Project":
+            component=<Project/>
+            break;   
         default:
             component=<Home/>
               

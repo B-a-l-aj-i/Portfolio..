@@ -18,7 +18,7 @@ function Navbar(){
                 <ul>
                         <a href="/" ><li>Home</li></a>
                        <a href="/Tech" > <li>Techstack</li></a>
-                        <a href="#Project"  style={{textDecoration:"line-through"}}><li>Project</li></a>
+                        <a href="/Project" ><li>Projects</li></a>
                         <a href="/contact" ><li>contact</li></a>
                     </ul>
             </div>
@@ -28,7 +28,7 @@ function Navbar(){
                     <ul>
                         <a href="/" ><li>Home</li></a>
                        <a href="/Tech" > <li>Techstack</li></a>
-                        <a href="#Project"  style={{textDecoration:"line-through"}} ><li>Project</li></a>
+                        <a href="/Project"  ><li>Projects</li></a>
                         <a href="/contact" ><li>contact</li></a>
                     </ul>
                 </div>

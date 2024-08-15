@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.App {
+    background-color:#f7f1ed;
+    /* background-color: #f4f4f9;/ */
+    margin:5% auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  /* Projects Container */
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Project Card Styles */
+  .project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    /* height: 200px; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .project-info {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .project-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .project-info p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .project-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .project-info ul li {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 5px;
+    font-size: 0.875rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .projects {
+      grid-template-columns: 1fr;
+    }
+  
+    .App {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+  
