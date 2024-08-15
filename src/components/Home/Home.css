@@ -131,7 +131,7 @@ button:hover{
 .projectbtn{
     border: none;
     color: white;
-    background-color: blue;
+    background-color: rgb(60, 60, 255);
 }
 
 .projectbtn:hover{
@@ -163,9 +163,7 @@ button:hover{
 }
 
 @media screen and (max-width:720px) {
-    .sidebar{
-        /* animation: none; */
-    }
+   
     @keyframes sider {
         from{
             right: 0;
@@ -214,7 +212,7 @@ button:hover{
         
     }
     .projectbtn{
-        background-color: blue;
+        background-color: rgb(60, 60, 255);
     }
     .footer{
         padding-top: 4%;
