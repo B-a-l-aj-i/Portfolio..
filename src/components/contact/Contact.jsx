@@ -32,7 +32,7 @@ import React from "react";
   
     return (
       <div   id="contact">
-      <center><p style={{color:"black",fontSize:"2.5rem"}}>Send me a message!</p></center>
+      <center><p className="head">Send me a message!</p></center>
        <section className="contact">
           <div>
         <form onSubmit={onSubmit} >

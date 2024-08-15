@@ -12,6 +12,11 @@
     color: #0056b3;
     margin-bottom: 20px;
   }
+  .head{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: rgb(88, 88, 88);
+  }
   
   .contact {
     padding: 3%;
