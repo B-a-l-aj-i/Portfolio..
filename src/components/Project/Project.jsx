@@ -47,7 +47,7 @@ const Projects = () => {
         image: `${pie}`,
         title: 'Expense-Tracker',
         description: 'Monitor and manage your expenses with our integrated tracking and budgeting tool.',
-        technologies: ["Java","JavaFx"]
+        technologies: ["Java","JavaFx","OOPS"]
       }
   ];
 
