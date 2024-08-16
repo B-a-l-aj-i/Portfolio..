@@ -3,6 +3,7 @@ import './Project.css';
 import maptyImg from  "./imgs/mapty.png";
 import find from  "./imgs/find.png";
 import wai from  "./imgs/image copy.png";
+import pie from  "./imgs/ExpenseTrackerPiechart.png"
 // ProjectCard Component
 const ProjectCard = ({ image, title, description, technologies }) => {
   return (
@@ -46,7 +47,7 @@ const Projects = () => {
     
    
     {
-        image: 'path/to/logorain-image.png',
+        image: `${pie}`,
         title: 'Expense-Tracker',
         description: 'Track your Expenses here',
         technologies: ["java"]
