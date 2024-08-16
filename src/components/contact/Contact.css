@@ -152,7 +152,7 @@
   
   @media (max-width: 480px) {
     #contact{
-    margin-top:40%;
+    margin-top:20%;
     background-color:#f3f0f5;
 
     }
@@ -162,7 +162,7 @@
     }
   
     .contact {
-      padding: 5%;
+      padding: 3%;
     }
   
     input,
