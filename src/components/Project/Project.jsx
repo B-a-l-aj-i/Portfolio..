@@ -28,29 +28,26 @@ const Projects = () => {
     {
         image: `${maptyImg}`,
         title: 'Mapty',
-        description: 'Mark your workouts on our websites',
+        description: 'Visualize and map your workout routes to track fitness progress effectively',
         technologies: [ 'HTML', 'CSS', 'JavaScript']
       },
       {
         image: `${wai}`,
         title: 'where-Am-i',
-        description: 'Search for images in our website',
-        technologies: ['HTML', 'CSS',  'JavaScript']
+        description: 'Determine and exhibit your present geographical location, including city and country details',
+        technologies: ['HTML','CSS', 'JavaScript']
       },
      {
       image:`${find}`,
       title: 'Find-Images',
-      description: 'Search for images in our website',
-      technologies: ['React', 'HTML', 'CSS',  'JavaScript']
+      description: 'Conduct a thorough search for imagery across our website to enhance visual content engagement.',
+      technologies: [ 'HTML', 'CSS',  'JavaScript','React',]
     },
-
-    
-   
     {
         image: `${pie}`,
         title: 'Expense-Tracker',
-        description: 'Track your Expenses here',
-        technologies: ["java"]
+        description: 'Monitor and manage your expenses with our integrated tracking and budgeting tool.',
+        technologies: ["Java","JavaFx"]
       }
   ];
 
