@@ -22,7 +22,7 @@ const techs = [
   { name: 'Java', logo: `${java}` },
   { name: 'Bootstrap', logo:`${bootstrap}` },
   { name: 'Git & GitHub', logo:`${git}` },
-  { name: 'PostgreSQL', logo: `${sql}` },
+  // { name: 'PostgreSQL', logo: `${sql}` },
   { name: 'FIGMA', logo: `${figma}`}
 ];
 
