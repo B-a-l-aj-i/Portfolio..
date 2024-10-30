@@ -31,7 +31,7 @@ function Home(){
 
                         <div className="btns">
                         {/* <a href="resume.pdf" download="resume.pdf" > <button > Resume </button></a>  */}
-                            <button ><a style={{textDecoration:"none",color:"black"}} href="resume.pdf" download="resume.pdf" >Resume </a> </button>
+                            <button ><a style={{textDecoration:"none",color:"black"}} href="Resume.pdf" download="Resume.pdf" >Resume </a> </button>
                             <button  className="projectbtn"><a style={{textDecoration:"none",color:"black"}} href="/Project"> Projects </a> </button>
                         </div>
 
