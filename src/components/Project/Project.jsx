@@ -12,7 +12,7 @@ const ProjectCard = ({ image, title, description, technologies ,link}) => {
     <div className="project-card">
       <img src={image} alt={`${title} screenshot`} />
       <div className="project-info">
-        <h3>{title} {link && <button> <a href={link} style={{borderRadius:"10px"}}>Link</a> </button> } </h3>
+        <h3>{title} <button> <a target='_blank' style={{textDecoration:"none"}} href={link} >Link</a> </button> </h3>
         
         <p>{description}</p>
         <ul>
@@ -38,18 +38,21 @@ const Projects = () => {
       {
         image: `${wai}`,
         title: 'where-Am-i',
+        link:"https://github.com/B-a-l-aj-i/where-am-I",
         description: 'Determine and exhibit your present geographical location, including city and country details',
         technologies: ['HTML','CSS', 'JavaScript']
       },
       {
        image:`${find}`,
        title: 'Find-Images',
+       link:"https://github.com/B-a-l-aj-i/find-images",
        description: 'Conduct a thorough search for imagery across our website to enhance visual content engagement.',
        technologies: [ 'HTML', 'CSS',  'JavaScript','React',]
      },
     {
         image: `${pie}`,
         title: 'Expense-Tracker',
+        link:"https://github.com/B-a-l-aj-i/Expense-Tracker",
         description: 'Monitor and manage your expenses with our integrated tracking and budgeting tool.',
         technologies: ["Java","JavaFx","OOPS"]
       }
