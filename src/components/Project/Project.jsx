@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.css';
-import maptyImg from  "./imgs/mapty.png";
+// import maptyImg from  "./imgs/mapty.png";
 import find from  "./imgs/find.png";
 import wai from  "./imgs/image copy.png";
 import pie from  "./imgs/ExpenseTrackerPiechart.png"
@@ -12,7 +12,7 @@ const ProjectCard = ({ image, title, description, technologies ,link}) => {
     <div className="project-card">
       <img src={image} alt={`${title} screenshot`} />
       <div className="project-info">
-        <h3>{title} <button> <a target='_blank' style={{textDecoration:"none"}} href={link} >Link</a> </button> </h3>
+        <h3>{title} <button> <a target='_blank' rel="noreferrer" style={{textDecoration:"none"}} href={link} >Link</a> </button> </h3>
         
         <p>{description}</p>
         <ul>
@@ -79,6 +79,7 @@ function ProjectMain() {
       <div className="App">
       <h2>Projects</h2>
         <Projects />
+        
       </div>
     );
   }
